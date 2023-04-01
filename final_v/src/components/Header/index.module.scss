@@ -1,0 +1,61 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  line-height: 24px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding: 6px 8px;
+  border-radius: 8px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+}
+
+.button {
+  background-color: transparent;
+  border: none;
+  padding: 8px 12px;
+  font-size: 20px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+  position: relative;
+}
+
+.counter {
+  font-size: 16px;
+  line-height: 16px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #10c44c;
+  color: white;
+  min-width: 24px;
+  border-radius: 12px;
+  text-align: center;
+  padding: 4px;
+}
+
+.user {
+  height: 30px;
+  object-fit: cover;
+}
+
+.favorite {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+
+  .counter {
+    background-color: #c637ff;
+  }
+}

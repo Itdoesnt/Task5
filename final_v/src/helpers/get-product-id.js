@@ -1,0 +1,1 @@
+export const getProductId = (product) => product._id;

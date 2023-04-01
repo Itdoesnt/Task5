@@ -1,0 +1,18 @@
+.button {
+  background-color: #fee450;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 12px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #f4d93d;
+  }
+
+  &.inCart {
+    background-color: #10c44c;
+    color: white;
+  }
+}

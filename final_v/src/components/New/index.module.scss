@@ -1,0 +1,43 @@
+.root {
+  padding: 40px 0;
+}
+
+.form {
+  display: flex;
+  flex-flow: column;
+  gap: 12px;
+}
+
+.row {
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+}
+
+.control {
+  border: 1px solid #ddd;
+  padding: 6px 8px;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+.error {
+  font-size: 12px;
+  color: red;
+}
+
+.caption {
+  width: 100px;
+  text-align: right;
+}
+
+.create:not([disabled]) {
+  background-color: #10c44c;
+  color: white;
+  border: 0;
+  font-size: 18px;
+
+  &:hover {
+    background-color: #0e9e3e;
+  }
+}

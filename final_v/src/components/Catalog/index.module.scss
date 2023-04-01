@@ -1,0 +1,32 @@
+.root {
+  padding: 40px 0;
+}
+
+.items {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 24px;
+}
+
+.item {
+  width: calc(25% - 24px);
+  height: 365px;
+}
+
+.panel {
+  display: flex;
+  margin-bottom: 24px;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.buttonNew {
+  margin-left: auto;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 8px 12px;
+
+  &:hover:not([disabled]) {
+    background-color: #ddd;
+  }
+}
